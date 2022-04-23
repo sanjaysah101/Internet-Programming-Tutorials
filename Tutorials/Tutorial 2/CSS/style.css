@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+:root{
+    --primary: #1D566E;
+    --gray: #163A5F;
+}
+.container{
+    width: 80vw;
+    margin: auto;
+}
+
+.table-info{
+    /* background-color: red; */
+    margin: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+.add-record{
+    background-color: var(--gray);
+    color: white;
+    position: fixed;
+    right: 10vw;
+    top: 2rem;
+}
+
+.add-record, .table-info h3{
+    font-size: 2rem;
+}
+.table-container{
+    overflow-x: auto;
+}
+table, th, td {
+    border: 1px solid black;
+}
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+thead{
+    height: 3rem;
+}
+
+thead th:last-child{
+    /* background-color: red; */
+    padding: 0 5rem;
+}
+thead tr th{
+    padding: 0 1rem;
+}
+
+th {
+    height: 2.5rem;
+    background-color: var(--gray);
+    color: white;
+}
+td {
+    text-align: center;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: rgb(185, 185, 147);
+}
+
+.btn{
+    padding: .2rem 1rem;
+    /* background: transparent; */
+    /* background-color: #000; */
+    border: none;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.delete{
+    background-color: red;
+    color: white;
+}
+.edit{
+    background-color: green;
+    color: white;
+}
+.delete:hover{
+    background-color: red;
+    color: white;
+}
+.edit:hover{
+    color: white;
+    background-color: green;
+}
+

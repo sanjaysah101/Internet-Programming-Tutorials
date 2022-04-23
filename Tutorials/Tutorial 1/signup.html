@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>signUp</title>
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+        integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+</head>
+
+<body>
+    <div class="wrapper">
+
+        <div class="container">
+            <h2>sign Up</h2>
+            <form action="#">
+                <div class="element">
+                    <label for="name">Name:</label>
+                    <input type="text" name="name" id="name" class="form_input" placeholder="Full name" required>
+                </div>
+                <div class="element">
+                    <label for="email" class="form_label">Email: </label>
+                    <input type="email" class="form_input" name="email" id="email" placeholder="Example@mail.com" required>
+                </div>
+                <div class="element">
+                    <label for="password" class="form_label">Password: </label>
+                    <input type="password" class="form_input" name="password" id="password"
+                        placeholder="Enter password" required>
+                </div>
+                <div class="element">
+                    <label for="password" class="form_label">Re-Password: </label>
+                    <input type="password" class="form_input" name="password" id="password"
+                        placeholder="Enter password again" required>
+                </div>
+                <div class="element">
+                    <label for="dob">DOB</label>
+                    <input type="date" name="dob" id="dob" class="form_input" required>
+                </div>
+                <input type="submit" value="sign Up" class="btn">
+
+                <div class="social_icons">
+                    <i class="fab fa-facebook-f icons"></i>
+                    <i class="fab fa-google icons"></i>
+                    <i class="fab fa-linkedin icons"></i>
+                </div>
+                <div class="element">
+                    <label for="signUp">Already have an account?</label>
+                    <a href="login.html">Sign in</a>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
