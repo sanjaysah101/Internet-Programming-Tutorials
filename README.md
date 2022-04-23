@@ -39,7 +39,10 @@ This repository is for the tutorials and assignment that I performed during the 
     Design a table to display Tutorial-1 Registration Form Data. 
     </h2>
     <p>Also, put Add, Delete and Edit button. Apply jQuery animation on the deletion of the record. You can add more or less columns also.</p>
-    <img src="http://localhost/ip/Tutorials/Tutorial 2/Tutorial02.png"/>  
+  
+  
+  ![Tutorial02](https://user-images.githubusercontent.com/90146483/164917395-d9827e61-6db9-4d33-bb22-5e30582ed914.png)
+  
   <h3>Demo: </h3>
   <iframe src="http://localhost/ip/Tutorials/Tutorial 2/index.html" width="100%" height="400"></iframe>
   <a href="#">See live</a> </br>
