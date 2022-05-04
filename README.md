@@ -27,7 +27,6 @@ This repository is for the tutorials and assignment that I performed during the 
     <li>The design must be responsive.</li>
   </ul>  
   <h3>Demo: </h3>  
-  <iframe src="http://localhost/ip/Tutorials/Tutorial 3/signup.html" width="100%" height="600"></iframe>
   <a href="#">See live</a> </br>
   <a href="#">See Code on Github</a>
 </details>
@@ -39,12 +38,9 @@ This repository is for the tutorials and assignment that I performed during the 
     Design a table to display Tutorial-1 Registration Form Data. 
     </h2>
     <p>Also, put Add, Delete and Edit button. Apply jQuery animation on the deletion of the record. You can add more or less columns also.</p>
-  
-  
-  ![Tutorial02](https://user-images.githubusercontent.com/90146483/164917395-d9827e61-6db9-4d33-bb22-5e30582ed914.png)
-  
+    <!-- <img src="http://localhost/ip/Tutorials/Tutorial 2/Tutorial02.png"/>   -->
+    <img src="http://localhost/ip/Tutorials/Tutorial%202/Tutorial02.png"/>  
   <h3>Demo: </h3>
-  <iframe src="http://localhost/ip/Tutorials/Tutorial 2/index.html" width="100%" height="400"></iframe>
   <a href="#">See live</a> </br>
   <a href="#">See Code on Github</a>
 </details>
@@ -56,7 +52,6 @@ This repository is for the tutorials and assignment that I performed during the 
     Apply jQuery validation in the form to validate user input of the registration page. 
     </h2>    
   <h3>Demo: </h3>
-  <iframe src="http://localhost/ip/Tutorials/Tutorial 3/signup.html" width="100%" height="600"></iframe>
   <a href="#">See live</a> </br>
   <a href="#">See Code on Github</a>
 </details>
@@ -68,7 +63,6 @@ This repository is for the tutorials and assignment that I performed during the 
   Create a PHP script to calculate interest from 3 values (P, R, N) entered by the user in the textbox and display the data in next page.
   </h2>    
   <h3>Demo: </h3>
-  <iframe src="http://localhost/ip/Tutorials/tutorial%204/" width="100%" height="400"></iframe>
   <a href="#">See live</a> </br>
   <a href="#">See Code on Github</a>
 </details>
@@ -80,7 +74,6 @@ This repository is for the tutorials and assignment that I performed during the 
   Create HTML form having select box of 1 to 12 number. On submit form should post data to second PHP file which display respective Month name preselected in select box
   </h2>       
   <h3>Demo: </h3>
-  <iframe src="http://localhost/ip/Tutorials/tutorial%205/" width="100%" height="300"></iframe>
   <a href="#">See live</a> </br>
   <a href="#">See Code on Github</a>
 </details>

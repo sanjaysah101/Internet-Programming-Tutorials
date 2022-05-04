@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tutorial</title>
+
+    <!-- font awesome cdn link  -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <!-- custom css file link  -->
+    <link rel="stylesheet" href="..//css/style.css">
+
+</head>
+
+<body>
+
+    <!-- header section starts  -->
+
+    <header>
+
+        <div id="menu-bars" class="fas fa-bars"></div>
+
+        <nav class="navbar">
+            <a href="..//index.html">home</a>
+            <a href="..//index.html#about">about</a>
+            <a href="..//index.html#services">services</a>
+            <a href="..//index.html#portfolio">portfolio</a>
+            <a href="..//Tutorials/">Tutorial</a>
+            <!-- <a href="..//index.html#blogs">blogs</a> -->
+            <a href="..//index.html#contact">contact</a>
+        </nav>
+
+    </header>
+
+
+    <!-- blogs section starts  -->
+
+    <section class="blogs" id="blogs">
+
+        <h1 class="heading"> <span> my </span> Tutorial </h1>
+
+        <div class="box-container">
+
+            <div class="box tilt">
+                <!-- <img src="..//images/tutorial_1.png" alt=""> -->
+                <iframe src="http://localhost/ip//Tutorials/Tutorial%201/signup.html"></iframe>
+                <h3> Develop a login.html and registration.html with bootstrap design. </h3>
+                <p>The login page must have a username and password field.</p>
+                <a href="Tutorial%201/signup.html" class="btn">learn more</a>
+            </div>
+
+            <div class="box tilt">
+                <!-- <img src="..//images/tutorial_2.png" alt=""> -->
+                <iframe src="http://localhost/ip//Tutorials/Tutorial%202/index.html"></iframe>
+                <h3> Design a table to display Tutorial-1 Registration Form Data. </h3>
+                <p>Also, put Add, Delete and Edit button. Apply jQuery animation on the deletion of the record. You can
+                    add more or less columns also.</p>
+                    <a href="Tutorial%202/index.html" class="btn">learn more</a>
+                </div>
+                
+                <div class="box tilt">
+                <iframe src="http://localhost/ip//Tutorials/Tutorial%203/signup.html"></iframe>
+                <h3> Apply jQuery validation in the form to validate user input of the registration page. </h3>
+                <p>Apply jQuery validation in the form to validate user input of the registration page.</p>
+                <a href="Tutorial 3/signup.html" class="btn">learn more</a>
+            </div>
+            <div class="box tilt">
+                <iframe src="http://localhost/ip//Tutorials/Tutorial%204/index.php"></iframe>
+                <h3> Create a PHP script to calculate interest </h3>
+                <p>Create a PHP script to calculate interest from 3 values (P, R, N) entered by the user in the textbox
+                    and display the data in next page.</p>
+                <a href="Tutorial 4/index.php" class="btn">learn more</a>
+            </div>
+            <div class="box tilt">
+                <iframe src="http://localhost/ip//Tutorials/Tutorial%205/index.php"></iframe>
+                <h3> Create HTML form having select box of 1 to 12 number.</h3>
+                <p>On submit form should post data to second PHP file which display respective Month name preselected in select box</p>
+                <a href="Tutorial 5/index.php" class="btn">learn more</a>
+            </div>
+           
+
+        </div>
+
+    </section>
+
+    <!-- blogs section ends -->
+
+
+
+
+
+
+
+
+
+    <!-- javascript part  -->
+
+    <!-- typed.js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+
+    <!-- particles.js links  -->
+    <script src="js/particles.min.js"></script>
+    <script src="js/app.js"></script>
+
+    <!-- vanilla-tilt.js link  -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+
+    <script>
+
+        let menu = document.querySelector('#menu-bars');
+        let header = document.querySelector('header');
+
+        menu.onclick = () => {
+            menu.classList.toggle('fa-times');
+            header.classList.toggle('active');
+        }
+
+        window.onscroll = () => {
+            menu.classList.remove('fa-times');
+            header.classList.remove('active');
+        };
+
+        var typed = new Typed('.typing-text', {
+            strings: ['front end developer', 'web designer', 'graphic designer', 'web developer'],
+            loop: true,
+            typeSpeed: 150
+        });
+
+        VanillaTilt.init(document.querySelectorAll('.tilt'), {
+            max: 25
+        });
+
+    </script>
+</body>
+
+</html>
