@@ -32,6 +32,15 @@ if( ($_SERVER["REQUEST_METHOD"] == "POST") && isset($_POST['login'])){
             // echo "login sucess";
             $_SESSION['login_username'] = $row['name'];
             $_SESSION['email'] = $row['email'];
+           
+        }
+        if(!empty($_POST["remember_me"])){
+            $cookie_username = "username";
+            // $cookie_username_value = $row["username"];
+            $cookie_password = "password";
+            // $cookie_password_value = $password;
+            setcookie($cookie_username, $username, time() + (86400 *10));
+            setcookie($cookie_password, $password, time() + (86400 *10));
         }
         header("location: index.php");
         // if($num == 1) {

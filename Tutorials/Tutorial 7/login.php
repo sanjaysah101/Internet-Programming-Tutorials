@@ -1,3 +1,5 @@
+
+
 <!DOCTYPE html>
 <html lang="en">
 
@@ -19,11 +21,15 @@
         <form action="validateuser.php" method="post" id="clientform">
             <div class="form-group">
                 <label for="email">Username:</label>
-                <input type="text" class="form-control" id="username" placeholder="Enter username" name="username">
+                <input type="text" class="form-control" id="username" placeholder="Enter username" name="username" value="<?php if(isset($_COOKIE["username"])){echo $_COOKIE['username']; }?>">
             </div>
             <div class="form-group">
                 <label for="pwd">Password:</label>
-                <input type="password" class="form-control" id="password" placeholder="Enter password" name="password">
+                <input type="password" class="form-control" id="password" placeholder="Enter password" name="password" value="<?php if(isset($_COOKIE["password"])){echo $_COOKIE['password']; }?>">
+            </div>
+            <div class="form-check">
+                <input type="checkbox" name="remember_me" id="rememberme" class="form-check-input">
+                <label for="rememberme">Remember Me:</label>
             </div>
             <div class="form-group mt-3">
                 <button type="submit" id="btnSubmit" class="btn btn-primary" name="login">Submit</button>
