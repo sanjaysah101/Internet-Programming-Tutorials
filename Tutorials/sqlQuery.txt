@@ -1,0 +1,16 @@
+CREATE DATABASE tutorial_6;
+
+CREATE TABLE IF NOT EXISTS `users` (
+`id` int(11) NOT NULL AUTO_INCREMENT,
+`name` varchar(100) NOT NULL,
+`username` varchar(50) NOT NULL,
+`password` varchar(50) NOT NULL,
+ `age` integer(2) not null,
+ `dob` varchar(20) not null,
+  `country` varchar(30) not null,
+  `state` varchar(30),
+  `city` varchar(30) not null,
+   `image` varchar(50) not null,
+  `note` text,
+PRIMARY KEY (`id`)
+);
